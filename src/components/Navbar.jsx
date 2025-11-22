@@ -13,7 +13,6 @@ const Navbar = ({location, getLocation, openDropdown, setOpenDropdown}) => {
 
     const {cartItem} = useCart()
     const [openNav, setOpenNav] = useState(false)
-    
     const toggleDropdown = ()=>{
         setOpenDropdown(!openDropdown)
     }
