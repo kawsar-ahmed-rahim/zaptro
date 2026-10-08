@@ -96,6 +96,16 @@ const Navbar = ({ location, getLocation, openDropdown, setOpenDropdown }) => {
             >
               <li>Contact</li>
             </NavLink>
+            <SignedIn>
+              <NavLink
+                to={"/orders"}
+                className={({ isActive }) =>
+                  `${isActive ? "border-b-3 transition-all border-red-500" : "text-black"} cursor-pointer`
+                }
+              >
+                <li>Orders</li>
+              </NavLink>
+            </SignedIn>
           </ul>
           <Link to={"/cart"} className="relative">
             <IoCartOutline className="h-7 w-7" />

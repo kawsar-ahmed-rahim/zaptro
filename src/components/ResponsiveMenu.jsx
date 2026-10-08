@@ -23,6 +23,7 @@ const ResponsiveMenu = ({ openNav, setOpenNav }) => {
                         <Link to={"/products"} onClick={()=>setOpenNav(false)} className="cursor-pointer"><li>Products</li></Link>
                         <Link to={"/about"} onClick={()=>setOpenNav(false)} className="cursor-pointer"><li>About</li></Link>
                         <Link to={"/contact"} onClick={()=>setOpenNav(false)} className="cursor-pointer"><li>Contact</li></Link>
+                        {user && <Link to={"/orders"} onClick={()=>setOpenNav(false)} className="cursor-pointer"><li>My Orders</li></Link>}
                     </ul>
                 </nav>
             </div>
