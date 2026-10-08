@@ -21,7 +21,7 @@ const Navbar = ({location, getLocation, openDropdown, setOpenDropdown}) => {
             <div className='max-w-6xl mx-auto flex justify-between items-center'>
                 {/* logo section */}
                 <div className='flex gap-7 items-center'>
-                    <Link to={'/'}><h1 className='font-bold text-3xl'><span className='text-red-500 font-serif'>Z</span>aptro</h1></Link>
+                    <Link to={'/'}><h1 className='font-bold text-3xl'><span className='text-red-500 font-serif'>R</span>ahim</h1></Link>
                     <div className='md:flex gap-1 cursor-pointer text-gray-700 items-center hidden'>
                         <MapPin className='text-red-500' />
                         <span className='font-semibold '>{location ? <div className='-space-y-2'>

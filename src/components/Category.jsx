@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { getData } from "../context/DataContext";
 import { useNavigate } from "react-router-dom";
 
 const Category = () => {
-  // const {categoryOnlyData} = getData()
   const navigate = useNavigate();
   const { data } = getData();
 
