@@ -138,12 +138,12 @@ const Cart = ({ location, getLocation }) => {
                 {/* State + Postcode */}
                 <div className="flex w-full gap-5">
                   <div className="flex flex-col space-y-1 w-full">
-                    <label htmlFor="state">State</label>
+                    <label htmlFor="state">Division</label>
 
                     <input
                       id="state"
                       type="text"
-                      placeholder="Enter your state"
+                      placeholder="Enter your Division"
                       className="p-2 rounded-md w-full"
                       value={location?.state || ""}
                       readOnly
