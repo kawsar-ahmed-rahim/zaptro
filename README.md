@@ -241,12 +241,12 @@ React Router
 
 
 Live Website:
-ADD_YOUR_LIVE_DEMO_LINK_HERE
+https://rahimxyz.vercel.app/
 
 🔗 GitHub Repository
 
 GitHub:
-ADD_YOUR_GITHUB_REPOSITORY_LINK_HERE
+https://github.com/kawsar-ahmed-rahim/zaptro.git
 
 👨‍💻 Author
 
