@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import { Truck, Lock, RotateCcw, Clock } from "lucide-react";
@@ -61,4 +60,3 @@ const Features = () => {
 };
 
 export default Features;
-
